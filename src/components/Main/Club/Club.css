@@ -1,0 +1,59 @@
+.club {
+  background: #f7b3c2;
+  height: 600px;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+}
+
+.h2 {
+  margin-top: 14px;
+  color: #20343b;
+  font-size: 18px;
+}
+
+.club__text {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.club__btn button {
+  background: #a0a8d5;
+  color: #fff;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.club__btn button:hover {
+  background-color: #616581;
+}
+
+.link-text {
+  color: #20343b;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.link-text:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+@media (max-width: 850px) {
+  .club__card {
+    flex-direction: column;
+    text-align: center;
+  }
+}

@@ -1,0 +1,70 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  box-sizing: border-box;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 40px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  z-index: 999;
+}
+
+/* LOGO */
+header img {
+  height: 40px;
+  width: auto;
+}
+
+nav {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+nav a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #111;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+/* Hover general */
+nav a:hover {
+  background: #f3f3f3;
+}
+
+nav a.active {
+  background: #f3f3f3;
+  font-weight: 600;
+}
+
+nav a {
+  transition: background 0.2s ease, font-weight 0.2s ease;
+}
+
+/* Iniciar sesión (outline) */
+nav a:nth-child(4) {
+  border: 1px solid #111;
+}
+
+nav a:nth-child(4):hover {
+  background: #eaeaea;
+}
+
+/* Registrarse (botón principal) */
+nav a:nth-child(5) {
+  background: #1f333c;
+  color: #fff;
+  border-radius: 10px;
+}
+
+nav a:nth-child(5):hover {
+  opacity: 0.85;
+}

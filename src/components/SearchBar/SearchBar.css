@@ -1,0 +1,31 @@
+.search-container {
+  background-color: #fff;
+  max-width: 1320px;
+  margin: 42px auto 24px auto;
+  padding: 40px 40px;
+  font-family: "Manrope", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 16px;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 16px;
+}
+
+.search-btn {
+  margin-left: 24px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #20343b;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}

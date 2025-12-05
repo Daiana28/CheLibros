@@ -1,0 +1,88 @@
+.footer {
+  width: 100%;
+  background: #ffff;
+  padding: 60px 0;
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+}
+
+.footer__container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: flex-start;
+  column-gap: 60px;
+}
+
+/* --- Columna izquierda (logo + social icons) --- */
+
+.footer__brand img.footer__logo {
+  width: 42px;
+  margin-bottom: 20px;
+}
+
+.footer__brand p {
+  color: var(--color-gray);
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.footer__social a img {
+  width: 22px;
+  margin-right: 14px;
+  opacity: 0.85;
+  transition: 0.2s;
+}
+
+.footer__social a img:hover {
+  opacity: 1;
+}
+
+/* --- Texto central: Books make us better. --- */
+
+.footer__text h2 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--color-text);
+  margin-bottom: 10px;
+}
+
+.footer__text h2 span {
+  font-style: italic;
+}
+
+.footer__text p {
+  margin-top: 10px;
+  color: var(--color-soft-gray);
+  font-size: 16px;
+}
+
+.footer__links h4 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: var(--color-text);
+}
+
+.footer__links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__links ul li {
+  margin-bottom: 10px;
+}
+
+.footer__links ul li a {
+  color: var(--color-gray);
+  font-size: 15px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer__links ul li a:hover {
+  color: var(--color-text);
+}

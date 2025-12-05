@@ -1,0 +1,16 @@
+.perfil-container {
+  padding: 24px;
+}
+
+.perfil-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+}
+
+.col-izq,
+.col-der {
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+}

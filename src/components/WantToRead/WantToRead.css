@@ -1,0 +1,25 @@
+.want-to-read h2 {
+  color: #f597b2;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #eee;
+  padding: 5px 0;
+}
+
+.item {
+  padding: 8px 0;
+}
+
+.titulo {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.autor {
+  font-size: 14px;
+  color: #666;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid #ddd;
+}

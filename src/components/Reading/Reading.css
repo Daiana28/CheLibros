@@ -1,0 +1,81 @@
+.reading h2 {
+  color: #f597b2;
+  margin-bottom: 12px;
+}
+
+.reading-card {
+  display: flex;
+  gap: 20px;
+  background: #223238;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.libro-img {
+  width: 130px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.progress-section {
+  flex: 1;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background: #ddd;
+  border-radius: 8px;
+  margin: 8px 0;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #c998e7;
+  border-radius: 8px;
+}
+
+.btn {
+  background: #c1c8ff;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #00000060;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  width: 280px;
+  height: auto;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.btn-cancel {
+  background: #ddd;
+  width: 100%;
+  margin-top: 16px;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}

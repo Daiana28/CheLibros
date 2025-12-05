@@ -1,0 +1,23 @@
+.libros-container {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 32px;
+  max-width: 1320px;
+  margin: 94px auto 24px auto;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.libros-container h1 {
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.resultados {
+  margin-top: 24px;
+  list-style: none;
+  padding: 0;
+}
+
+.resultados li {
+  margin-bottom: 12px;
+}
